@@ -26,7 +26,7 @@ jobs:
 
     - name: Build APK (Debug) with updated name and create artifact
       run: |
-        flutter build apk --debug --flavor 'Sport Spirit'
+        flutter build apk --debug --flavor option 'Sport Spirit'
         mv build/app/outputs/flutter-apk/app-debug.apk build/app/outputs/flutter-apk/app-sport-spirit-debug.apk
 
     - name: Archive artifacts
