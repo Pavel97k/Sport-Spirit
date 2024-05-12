@@ -1,6 +1,8 @@
 import 'dart:async';
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sport_spirit/features/data/global_service.dart';
 import 'package:sport_spirit/features/data/sqlite/models/local_exercises_lite.dart';
@@ -424,53 +426,60 @@ class _ExerciseInfoState extends State<ExerciseInfo> {
                               ),
                               Column(
                                 children: [
-                                  Padding(
-                                    padding: const EdgeInsets.only(right: 20.0),
-                                    child: SizedBox(
-                                      width: 200,
-                                      child: TextFormField(
-                                        controller: repetitionController,
-                                        onEditingComplete: () {
-                                          setState(() {
-                                            final number =
-                                                repetitionController.text;
-                                            repetition += int.parse(number);
-                                            if (repetition >=
-                                                state.data.repetition!) {
-                                              approaches++;
-                                              repetition = 0;
-                                            }
-                                            if (approaches >=
-                                                state.data.approaches!) {
-                                              showDialog(
-                                                context: context,
-                                                builder:
-                                                    (BuildContext context) {
-                                                  return AlertDialog(
-                                                    title: const Text(
-                                                        'Упражнение завершено'),
-                                                    actions: [
-                                                      TextButton(
-                                                        child: const Text('Ок'),
-                                                        onPressed: () {
-                                                          Navigator.of(context)
-                                                              .pop();
-                                                        },
-                                                      ),
-                                                    ],
+                                  Row(
+                                    children: [
+                                      Padding(
+                                        padding:
+                                            const EdgeInsets.only(right: 20.0),
+                                        child: SizedBox(
+                                          width: 160,
+                                          child: TextFormField(
+                                            controller: repetitionController,
+                                            onEditingComplete: () {
+                                              setState(() {
+                                                final number =
+                                                    repetitionController.text;
+                                                repetition += int.parse(number);
+                                                if (repetition >=
+                                                    state.data.repetition!) {
+                                                  approaches++;
+                                                  repetition = 0;
+                                                }
+                                                if (approaches >=
+                                                    state.data.approaches!) {
+                                                  showDialog(
+                                                    context: context,
+                                                    builder:
+                                                        (BuildContext context) {
+                                                      return AlertDialog(
+                                                        title: const Text(
+                                                            'Упражнение завершено'),
+                                                        actions: [
+                                                          TextButton(
+                                                            child: const Text(
+                                                                'Ок'),
+                                                            onPressed: () {
+                                                              Navigator.of(
+                                                                      context)
+                                                                  .pop();
+                                                            },
+                                                          ),
+                                                        ],
+                                                      );
+                                                    },
                                                   );
-                                                },
-                                              );
-                                            }
-                                          });
-                                        },
-                                        keyboardType: TextInputType.number,
-                                        decoration: const InputDecoration(
-                                          labelText: 'Повторений выполнено',
-                                          filled: true,
+                                                }
+                                              });
+                                            },
+                                            keyboardType: TextInputType.number,
+                                            decoration: const InputDecoration(
+                                              labelText: 'Ваши повторения',
+                                              filled: true,
+                                            ),
+                                          ),
                                         ),
                                       ),
-                                    ),
+                                    ],
                                   ),
                                   SizedBox(
                                     width: 100,

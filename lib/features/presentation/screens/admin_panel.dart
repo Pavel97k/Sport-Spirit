@@ -104,7 +104,7 @@ class _AdminPanelState extends State<AdminPanel> {
                                       id: AdminPanel.id,
                                       token: widget.token.toString()),
                               style: FilledButton.styleFrom(
-                                minimumSize: const Size(200, 45),
+                                minimumSize: const Size(100, 45),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8),
                                 ),
@@ -122,7 +122,7 @@ class _AdminPanelState extends State<AdminPanel> {
                                   .updateLogicCollectionServer(
                                       id: AdminPanel.id, token: widget.token),
                               style: FilledButton.styleFrom(
-                                minimumSize: const Size(200, 45),
+                                minimumSize: const Size(100, 45),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8),
                                 ),
