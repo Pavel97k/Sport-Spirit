@@ -1,21 +1,21 @@
 import 'package:get_it/get_it.dart';
-import 'package:sport_spirit/features/data/api/repositories/adminstrators_rep.dart';
-import 'package:sport_spirit/features/data/api/repositories/collection_server_rep.dart';
-import 'package:sport_spirit/features/data/api/repositories/exercise_criterions_rep.dart';
-import 'package:sport_spirit/features/data/api/repositories/exercises_rep.dart';
-import 'package:sport_spirit/features/data/api/service/service_api.dart';
-import 'package:sport_spirit/features/data/sqlite/repositories/local_collection_lite_rep.dart';
-import 'package:sport_spirit/features/data/sqlite/repositories/local_exercises_lite_rep.dart';
-import 'package:sport_spirit/features/data/sqlite/service/database.dart';
-import 'package:sport_spirit/features/domain/api/cubit/administrator_cubit.dart';
-import 'package:sport_spirit/features/domain/api/cubit/collection_server_cubit.dart';
-import 'package:sport_spirit/features/domain/api/cubit/exercise_criterions_cubit.dart';
-import 'package:sport_spirit/features/domain/api/cubit/exercises_cubit.dart';
-import 'package:sport_spirit/features/domain/sqlite/cubit/collection_lite_cubit.dart';
-import 'package:sport_spirit/features/domain/sqlite/cubit/exercise_lite_cubit.dart';
-import 'package:sport_spirit/features/domain/sqlite/cubit/home_cubit.dart';
-import 'package:sport_spirit/features/utils/crypto/crypto_helper.dart';
-import 'package:sport_spirit/features/utils/storage/shared_preferences_helper.dart';
+import 'package:SportSpirit/features/data/api/repositories/adminstrators_rep.dart';
+import 'package:SportSpirit/features/data/api/repositories/collection_server_rep.dart';
+import 'package:SportSpirit/features/data/api/repositories/exercise_criterions_rep.dart';
+import 'package:SportSpirit/features/data/api/repositories/exercises_rep.dart';
+import 'package:SportSpirit/features/data/api/service/service_api.dart';
+import 'package:SportSpirit/features/data/sqlite/repositories/local_collection_lite_rep.dart';
+import 'package:SportSpirit/features/data/sqlite/repositories/local_exercises_lite_rep.dart';
+import 'package:SportSpirit/features/data/sqlite/service/database.dart';
+import 'package:SportSpirit/features/domain/api/cubit/administrator_cubit.dart';
+import 'package:SportSpirit/features/domain/api/cubit/collection_server_cubit.dart';
+import 'package:SportSpirit/features/domain/api/cubit/exercise_criterions_cubit.dart';
+import 'package:SportSpirit/features/domain/api/cubit/exercises_cubit.dart';
+import 'package:SportSpirit/features/domain/sqlite/cubit/collection_lite_cubit.dart';
+import 'package:SportSpirit/features/domain/sqlite/cubit/exercise_lite_cubit.dart';
+import 'package:SportSpirit/features/domain/sqlite/cubit/home_cubit.dart';
+import 'package:SportSpirit/features/utils/crypto/crypto_helper.dart';
+import 'package:SportSpirit/features/utils/storage/shared_preferences_helper.dart';
 
 final service = GetIt.instance;
 

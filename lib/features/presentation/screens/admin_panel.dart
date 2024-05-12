@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/domain/api/cubit/collection_server_cubit.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/domain/api/cubit/collection_server_cubit.dart';
 
 class AdminPanel extends StatefulWidget {
   final token;

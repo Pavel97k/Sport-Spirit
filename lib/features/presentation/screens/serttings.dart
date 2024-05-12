@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sport_spirit/features/utils/theme/theme_data.dart';
+import 'package:SportSpirit/features/utils/theme/theme_data.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});

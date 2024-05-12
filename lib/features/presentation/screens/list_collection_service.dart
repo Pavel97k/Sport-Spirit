@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/data/sqlite/models/local_collection_lite.dart';
-import 'package:sport_spirit/features/domain/api/cubit/collection_server_cubit.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/sqlite/models/local_collection_lite.dart';
+import 'package:SportSpirit/features/domain/api/cubit/collection_server_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sport_spirit/features/domain/api/cubit/exercises_cubit.dart';
-import 'package:sport_spirit/features/domain/sqlite/cubit/collection_lite_cubit.dart';
-import 'package:sport_spirit/features/domain/sqlite/cubit/exercise_lite_cubit.dart';
-import 'package:sport_spirit/features/presentation/widjets/collection_exercises.dart';
-import 'package:sport_spirit/features/utils/router/getrouters.dart';
+import 'package:SportSpirit/features/domain/api/cubit/exercises_cubit.dart';
+import 'package:SportSpirit/features/domain/sqlite/cubit/collection_lite_cubit.dart';
+import 'package:SportSpirit/features/domain/sqlite/cubit/exercise_lite_cubit.dart';
+import 'package:SportSpirit/features/presentation/widjets/collection_exercises.dart';
+import 'package:SportSpirit/features/utils/router/getrouters.dart';
 import '../../data/api/models/collection_server.dart';
 
 class ListCollectionService extends StatefulWidget {

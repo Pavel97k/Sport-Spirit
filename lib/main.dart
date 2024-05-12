@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sport_spirit/app.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/utils/theme/theme_data.dart';
+import 'package:SportSpirit/app.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/utils/theme/theme_data.dart';
 
 Future<void> main() async {
   await init();

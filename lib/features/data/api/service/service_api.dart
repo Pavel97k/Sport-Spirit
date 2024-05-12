@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:sport_spirit/features/data/api/core/interceptor_dio.dart';
+import 'package:SportSpirit/features/data/api/core/interceptor_dio.dart';
 
 // Методы для создания, обновления удаления и вывода данных
 class ServiceAPI {

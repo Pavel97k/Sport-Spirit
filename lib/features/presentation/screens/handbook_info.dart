@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/data/sqlite/models/local_exercises_lite.dart';
-import 'package:sport_spirit/features/domain/api/cubit/exercises_cubit.dart';
-import 'package:sport_spirit/features/presentation/screens/exercise_info.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/sqlite/models/local_exercises_lite.dart';
+import 'package:SportSpirit/features/domain/api/cubit/exercises_cubit.dart';
+import 'package:SportSpirit/features/presentation/screens/exercise_info.dart';
 
 class HandbookInfo extends StatelessWidget {
   HandbookInfo({super.key});

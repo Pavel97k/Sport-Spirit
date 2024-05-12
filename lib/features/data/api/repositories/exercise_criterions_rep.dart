@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sport_spirit/features/data/api/models/exercise_criterions.dart';
-import 'package:sport_spirit/features/data/api/service/service_api.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/api/models/exercise_criterions.dart';
+import 'package:SportSpirit/features/data/api/service/service_api.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
 
 class ExercisesCriterionsRep {
   ExercisesCriterionsRep();

@@ -4,9 +4,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/data/sqlite/models/local_exercises_lite.dart';
-import 'package:sport_spirit/features/domain/api/cubit/exercise_criterions_cubit.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/sqlite/models/local_exercises_lite.dart';
+import 'package:SportSpirit/features/domain/api/cubit/exercise_criterions_cubit.dart';
 
 class ExerciseInfo extends StatefulWidget {
   final ExercisesLite boxExercises;

@@ -1,9 +1,10 @@
+import 'package:SportSpirit/features/data/sqlite/models/local_collection_lite.dart';
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/data/sqlite/models/local_collection_lite.dart';
-import 'package:sport_spirit/features/data/sqlite/repositories/local_collection_lite_rep.dart';
-import 'package:sport_spirit/features/utils/storage/shared_preferences_helper.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/sqlite/models/local_collection_lite.dart';
+import 'package:SportSpirit/features/data/sqlite/repositories/local_collection_lite_rep.dart';
+import 'package:SportSpirit/features/utils/storage/shared_preferences_helper.dart';
 
 part 'home_state.dart';
 

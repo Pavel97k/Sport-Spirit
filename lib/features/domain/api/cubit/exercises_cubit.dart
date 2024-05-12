@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:sport_spirit/features/data/api/models/exercises.dart';
-import 'package:sport_spirit/features/data/api/repositories/exercises_rep.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/api/models/exercises.dart';
+import 'package:SportSpirit/features/data/api/repositories/exercises_rep.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
 
 part 'exercises_state.dart';
 

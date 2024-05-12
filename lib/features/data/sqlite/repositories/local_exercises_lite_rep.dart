@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:sport_spirit/features/data/api/models/exercises.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/data/sqlite/models/local_exercises_lite.dart';
-import 'package:sport_spirit/features/data/sqlite/service/database.dart';
+import 'package:SportSpirit/features/data/api/models/exercises.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/sqlite/models/local_exercises_lite.dart';
+import 'package:SportSpirit/features/data/sqlite/service/database.dart';
 import 'package:sqflite/sqflite.dart';
 
 class ExercisesLiteRep {

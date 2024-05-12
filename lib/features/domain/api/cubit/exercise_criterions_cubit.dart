@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:sport_spirit/features/data/api/models/exercise_criterions.dart';
-import 'package:sport_spirit/features/data/api/repositories/exercise_criterions_rep.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/api/models/exercise_criterions.dart';
+import 'package:SportSpirit/features/data/api/repositories/exercise_criterions_rep.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
 
 part 'exercise_criterions_state.dart';
 

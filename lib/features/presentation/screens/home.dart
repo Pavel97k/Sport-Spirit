@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:sport_spirit/features/data/api/models/collection_server.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/domain/sqlite/cubit/exercise_lite_cubit.dart';
-import 'package:sport_spirit/features/domain/sqlite/cubit/home_cubit.dart';
-import 'package:sport_spirit/features/presentation/screens/box_exercise.dart';
-import 'package:sport_spirit/features/presentation/widjets/collection_exercises.dart';
-import 'package:sport_spirit/features/presentation/widjets/training.dart';
+import 'package:SportSpirit/features/data/api/models/collection_server.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/domain/sqlite/cubit/exercise_lite_cubit.dart';
+import 'package:SportSpirit/features/domain/sqlite/cubit/home_cubit.dart';
+import 'package:SportSpirit/features/presentation/screens/box_exercise.dart';
+import 'package:SportSpirit/features/presentation/widjets/collection_exercises.dart';
+import 'package:SportSpirit/features/presentation/widjets/training.dart';
 
 class Home extends StatefulWidget {
   Home({super.key});

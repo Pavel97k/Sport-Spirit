@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:sport_spirit/features/presentation/screens/admin_panel.dart';
-import 'package:sport_spirit/features/presentation/screens/authorization.dart';
-import 'package:sport_spirit/features/presentation/screens/handbook.dart';
-import 'package:sport_spirit/features/presentation/screens/handbook_info.dart';
-import 'package:sport_spirit/features/presentation/screens/home.dart';
-import 'package:sport_spirit/features/presentation/screens/list_collection.dart';
-import 'package:sport_spirit/features/presentation/screens/list_collection_service.dart';
-import 'package:sport_spirit/features/presentation/screens/serttings.dart';
-import 'package:sport_spirit/features/presentation/screens/start.dart';
-import 'package:sport_spirit/features/presentation/screens/tutorial.dart';
+import 'package:SportSpirit/features/presentation/screens/admin_panel.dart';
+import 'package:SportSpirit/features/presentation/screens/authorization.dart';
+import 'package:SportSpirit/features/presentation/screens/handbook.dart';
+import 'package:SportSpirit/features/presentation/screens/handbook_info.dart';
+import 'package:SportSpirit/features/presentation/screens/home.dart';
+import 'package:SportSpirit/features/presentation/screens/list_collection.dart';
+import 'package:SportSpirit/features/presentation/screens/list_collection_service.dart';
+import 'package:SportSpirit/features/presentation/screens/serttings.dart';
+import 'package:SportSpirit/features/presentation/screens/start.dart';
+import 'package:SportSpirit/features/presentation/screens/tutorial.dart';
 
 final router = GoRouter(
   initialLocation: '/',

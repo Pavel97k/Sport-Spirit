@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/utils/storage/shared_preferences_helper.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/utils/storage/shared_preferences_helper.dart';
 
 class ThemesData extends ChangeNotifier {
   late ThemeData themeData;

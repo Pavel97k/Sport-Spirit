@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sport_spirit/features/data/api/models/collection_server.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/domain/sqlite/cubit/collection_lite_cubit.dart';
-import 'package:sport_spirit/features/utils/storage/shared_preferences_helper.dart';
+import 'package:SportSpirit/features/data/api/models/collection_server.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/domain/sqlite/cubit/collection_lite_cubit.dart';
+import 'package:SportSpirit/features/utils/storage/shared_preferences_helper.dart';
 
 class CollectionExercisesWidget extends StatelessWidget {
   final CollectionServer collectionServer;

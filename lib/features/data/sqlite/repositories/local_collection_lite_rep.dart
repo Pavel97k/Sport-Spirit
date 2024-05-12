@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/data/sqlite/service/database.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/sqlite/service/database.dart';
 import 'package:sqflite/sqflite.dart';
 
 import '../models/local_collection_lite.dart';

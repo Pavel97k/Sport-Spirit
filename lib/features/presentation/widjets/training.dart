@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sport_spirit/features/data/sqlite/models/local_exercises_lite.dart';
+import 'package:SportSpirit/features/data/sqlite/models/local_exercises_lite.dart';
 
 class TrainingWidjet extends StatelessWidget {
   final List<ExercisesLite> boxExercises;

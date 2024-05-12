@@ -2,11 +2,11 @@ import 'dart:math';
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:sport_spirit/features/data/api/repositories/exercises_rep.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/data/sqlite/models/local_exercises_lite.dart';
-import 'package:sport_spirit/features/data/sqlite/repositories/local_collection_lite_rep.dart';
-import 'package:sport_spirit/features/data/sqlite/repositories/local_exercises_lite_rep.dart';
+import 'package:SportSpirit/features/data/api/repositories/exercises_rep.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/sqlite/models/local_exercises_lite.dart';
+import 'package:SportSpirit/features/data/sqlite/repositories/local_collection_lite_rep.dart';
+import 'package:SportSpirit/features/data/sqlite/repositories/local_exercises_lite_rep.dart';
 
 part 'exercise_lite_state.dart';
 

@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:sport_spirit/features/data/api/repositories/collection_server_rep.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/data/api/repositories/collection_server_rep.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
 
 import '../../../data/api/models/collection_server.dart';
 

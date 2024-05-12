@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:sport_spirit/features/data/global_service.dart';
-import 'package:sport_spirit/features/domain/api/cubit/administrator_cubit.dart';
-import 'package:sport_spirit/features/presentation/screens/admin_panel.dart';
+import 'package:SportSpirit/features/data/global_service.dart';
+import 'package:SportSpirit/features/domain/api/cubit/administrator_cubit.dart';
+import 'package:SportSpirit/features/presentation/screens/admin_panel.dart';
 
 class Authorization extends StatefulWidget {
   const Authorization({super.key});
