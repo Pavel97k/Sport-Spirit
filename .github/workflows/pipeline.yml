@@ -3,7 +3,7 @@ name: Flutter CI/CD
 on:
   push:
     branches:
-      - main  # Можно изменить ветку, по умолчанию
+      - main
 
 jobs:
   build:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: 3.19.6  # Можно изменить на нужную версию Flutter
+        flutter-version: 3.19.6
 
     - name: Get dependencies
       run: flutter pub get
@@ -28,4 +28,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: app-release
-        path: build/app/outputs/flutter-apk/SportSpirit-release.apk
+        path: build/app/outputs/flutter-apk/app-release.apk
