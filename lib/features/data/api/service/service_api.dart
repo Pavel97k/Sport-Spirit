@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:sport_spirit/features/data/api/core/interceptor_dio.dart';
@@ -6,8 +7,12 @@ import 'package:sport_spirit/features/data/api/core/interceptor_dio.dart';
 // Методы для создания, обновления удаления и вывода данных
 class ServiceAPI {
   final Dio _dio;
+  var basicAuth =
+      'Basic ${base64Encode(utf8.encode('11176398:60-dayfreetrial'))}';
 
-  ServiceAPI() : _dio = Dio(BaseOptions(baseUrl: 'http://10.0.2.2:5107/api/')) {
+  ServiceAPI()
+      : _dio = Dio(BaseOptions(
+            baseUrl: 'http://alwaysstudent-001-site1.atempurl.com/api/')) {
     _dio.interceptors.add(InterceptorsApp());
   }
 
@@ -15,7 +20,9 @@ class ServiceAPI {
     try {
       if (token != null || token != '') {
         return await _dio.get(endpoint,
-            options: Options(headers: {'Authorization': 'Bearer $token'}));
+            options: Options(headers: {
+              'Authorization': basicAuth,
+            }));
       }
       return await _dio.get(endpoint);
     } catch (e) {
@@ -29,7 +36,9 @@ class ServiceAPI {
       if (token != null || token != '') {
         return await _dio.post(endpoint,
             data: data,
-            options: Options(headers: {'Authorization': 'Bearer $token'}));
+            options: Options(headers: {
+              'Authorization': basicAuth,
+            }));
       }
 
       return await _dio.post(endpoint, data: data);
@@ -44,7 +53,9 @@ class ServiceAPI {
       if (token != null || token != '') {
         return await _dio.put(endpoint,
             data: data,
-            options: Options(headers: {'Authorization': 'Bearer $token'}));
+            options: Options(headers: {
+              'Authorization': basicAuth,
+            }));
       }
       return await _dio.put(endpoint, data: data);
     } catch (ex) {
@@ -56,7 +67,9 @@ class ServiceAPI {
     try {
       if (token != null || token != '') {
         return await _dio.put(endpoint,
-            options: Options(headers: {'Authorization': 'Bearer $token'}));
+            options: Options(headers: {
+              'Authorization': basicAuth,
+            }));
       }
       return await _dio.put(endpoint);
     } catch (ex) {
@@ -68,7 +81,9 @@ class ServiceAPI {
     try {
       if (token != null || token != '') {
         return await _dio.delete(endpoint,
-            options: Options(headers: {'Authorization': 'Bearer $token'}));
+            options: Options(headers: {
+              'Authorization': basicAuth,
+            }));
       }
       return await _dio.delete(endpoint);
     } catch (ex) {
