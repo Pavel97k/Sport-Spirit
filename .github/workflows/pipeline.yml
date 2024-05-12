@@ -21,10 +21,10 @@ jobs:
     - name: Get dependencies
       run: flutter pub get
 
-    - name: Build APK (Release) with updated name
-      run: flutter build apk --release --flavor 'Sport Spirit'
+    - name: Build APK (Release)
+      run: flutter build apk
 
-    - name: Build APK (Debug) with updated name
+    - name: Build APK (Debug)
       run: flutter build apk --debug --flavor 'Sport Spirit'
 
     - name: Archive artifacts
