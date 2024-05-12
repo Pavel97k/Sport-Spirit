@@ -22,7 +22,7 @@ jobs:
       run: flutter pub get
 
     - name: Build APK (Release) with updated name
-      run: flutter build apk --release --flavor 'Sport Spirit'
+      run: flutter build apk --release --flavor option 'Sport Spirit'
 
     - name: Build APK (Debug) with updated name and create artifact
       run: |
