@@ -21,11 +21,13 @@ jobs:
     - name: Get dependencies
       run: flutter pub get
 
-    - name: Build APK (Release)
-      run: flutter build apk
+    - name: Build APK (Release) with updated name
+      run: flutter build apk --release --flavor 'Sport Spirit'
 
-    - name: Build APK (Debug)
-      run: flutter build apk --debug --flavor 'Sport Spirit'
+    - name: Build APK (Debug) with updated name and create artifact
+      run: |
+        flutter build apk --debug --flavor 'Sport Spirit'
+        mv build/app/outputs/flutter-apk/app-debug.apk build/app/outputs/flutter-apk/app-sport-spirit-debug.apk
 
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
