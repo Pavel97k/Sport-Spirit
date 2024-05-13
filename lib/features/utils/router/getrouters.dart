@@ -217,7 +217,7 @@ final router = GoRouter(
       pageBuilder: (context, state) {
         return CustomTransitionPage<void>(
           key: state.pageKey,
-          child: AdminPanel(),
+          child: const AdminPanel(),
           transitionDuration: const Duration(milliseconds: 150),
           reverseTransitionDuration: const Duration(milliseconds: 150),
           transitionsBuilder: (BuildContext context,
