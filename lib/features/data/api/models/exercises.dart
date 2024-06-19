@@ -10,7 +10,7 @@ class Exercises {
   final String muscleGroup;
   final int? collectionServerId;
   final int exerciseCriteriaId;
-  @JsonKey(toJson: _boolToInt)
+  //@JsonKey(toJson: _boolToInt)
   final bool? isDeleted;
 
   Exercises(

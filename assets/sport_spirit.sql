@@ -14,5 +14,3 @@ CREATE TABLE local_exercises_lite (
     [collectionServerId] INTEGER NULL,
     [exerciseCriteriaId] INTEGER NOT NULL
 );
-
-SELECT * FROM local_exercises_lite;

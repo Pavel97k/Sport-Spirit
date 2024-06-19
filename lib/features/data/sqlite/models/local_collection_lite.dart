@@ -1,14 +1,14 @@
-import 'package:json_annotation/json_annotation.dart';
+//import 'package:json_annotation/json_annotation.dart';
 
 part 'local_collection_lite.g.dart';
 
-@JsonSerializable()
+//@JsonSerializable()
 class CollectionLite {
   final int? id; // переопределяем поле и указываем определённый тип
   final String collectionName;
   final String collectionType;
   final String collectionMultiplicity;
-  @JsonKey(fromJson: _intToBool, toJson: _boolToInt)
+  //@JsonKey(fromJson: _intToBool, toJson: _boolToInt)
   final bool availabilityBasicEquipment;
   final String genderName;
 

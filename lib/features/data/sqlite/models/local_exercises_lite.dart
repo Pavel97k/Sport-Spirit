@@ -1,8 +1,8 @@
-import 'package:json_annotation/json_annotation.dart';
+//import 'package:json_annotation/json_annotation.dart';
 
 part 'local_exercises_lite.g.dart';
 
-@JsonSerializable()
+//@JsonSerializable()
 class ExercisesLite {
   final int? id;
   final String exerciseName;

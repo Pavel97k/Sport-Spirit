@@ -4,7 +4,9 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:SportSpirit/features/data/api/core/interceptor_dio.dart';
 
-// Методы для создания, обновления удаления и вывода данных
+///
+///Класс для обслуживания запросов CRUD к API
+///
 class ServiceAPI {
   final Dio _dio;
   var basicAuth =
